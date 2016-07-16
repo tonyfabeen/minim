@@ -1,5 +1,7 @@
 module Minim
-  module Model
+  module Validations
+    REGISTERED = [:presence]
+
     def self.included(base)
       base.extend InstanceMethods
     end
